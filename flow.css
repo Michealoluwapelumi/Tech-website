@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    color-scheme: light Dark;
+    --bg-color:rgb(18, 8, 93);
+}
+body{
+    background-color: rgb(109, 39,199);
+}
+.head-container{
+    display: inline-block;
+    position: relative;
+     margin: 3rem;
+     /* overflow-x: hidden; */
+}
+.head-container img{
+    display: block;
+}  
+.head-container h3{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+.main-container h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(247, 231, 231);
+    font-size: 2rem;
+}
+.flow{
+    color: rgb(126, 64, 185);
+    text-shadow: 2px 2px 5px white;
+}
+.main-container p{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    padding-top: 10px;
+}
+.function-container > img{
+    background-color: rgba(167, 163, 173, 0.192);
+    padding: 16px;
+    border-radius: 10px;
+    width:10%;
+    /* opacity: 0.3; */
+}
+.automate{
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: -6px;
+}
+.save-container >p{
+    width: 100%;
+}
+.save-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.function-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 29%;
+    background-color:rgb(9, 6, 35);
+    border-radius: 15px;
+    box-shadow: 5px 6px 27px rgb(76, 6, 76) ;
+    padding: 2rem;
+    color: whitesmoke;
+    border: 2px solid rgb(76, 27, 163);
+}
+.form-container h2,p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.address-mail{
+    font-family:cursive;
+    /* font-size: 4rem; */
+}
+.mail{
+    border: 2px solid rgb(103, 58, 183);
+    padding: 0.7rem;
+    border-radius: 10px;
+    background-color: rgb(22, 3, 49);
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+.RRM{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.remember a{
+    color: blue;
+    text-decoration: none;
+}
+.btn{
+    padding: 0.7rem;
+    background-color: rgb(95, 32, 196);
+    font-size: 1rem;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+.or-center{
+    text-align: center;
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+     border: 2px solid rgb(71, 15, 169);
+    padding: 0.7rem;
+    border-radius: 10px;
+    background-color: rgb(22, 3, 49);
+}
+.account-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+.account-value a{
+    color: blue;
+    text-decoration: none;
+}
+.flex-together{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10rem;
+    /* right: 2rem; */
+}
+.oluwapelumi{
+    font-style: italic;
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    text-decoration: wavy;
+    position: absolute;
+    bottom:1px;
+}
+
+
+@media(min-width:320px){
+   .head-container{
+    margin: 3rem;
+   } 
+}
